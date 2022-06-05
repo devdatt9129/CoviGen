@@ -1,0 +1,5 @@
+mysql_host: 'localhost'
+mysql_user: 'root'
+mysql_password: 'Redemption9129@123'
+mysql_db: 'final_db'
+mysql_port: 3306

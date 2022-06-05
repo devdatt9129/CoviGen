@@ -1,0 +1,533 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Template Mo">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <title>Covi-Gen</title>
+    <!--
+
+    ART FACTORY
+
+    https://templatemo.com/tm-537-art-factory
+
+    -->
+        <!-- Additional CSS Files -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
+        <link rel="stylesheet" href="assets/css/button.css">
+        </head>
+        
+        <body>
+        
+        <!-- ***** Preloader Start ***** -->
+        <div id="preloader">
+            <div class="jumper">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>  
+        <!-- ***** Preloader End ***** -->
+        
+        
+        <!-- ***** Header Area Start ***** -->
+        <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <!-- ***** Logo Start ***** -->
+                            <a href="#" class="logo">CoviGen</a>
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li class="scroll-to-section"><a href="#welcome" class="active">Home</a></li>
+                                <li class="scroll-to-section"><a href="#about">About</a></li>
+                                <li class="scroll-to-section"><a href="#services">Services</a></li>
+                                <li class="scroll-to-section"><a href="#frequently-question">Frequently Questions</a></li>
+                                <li class="submenu">
+                                    <a href="javascript:;">Drop Down</a>
+                                    <ul>
+                                        <li><a href="#contact-us">About Us</a></li>
+                                        <li><a href="#about2">Features</a></li>
+                                        <li><a href="#frequently-question">FAQ's</a></li>
+                                        <li><a href="">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                            </ul>
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ***** Header Area End ***** -->
+
+
+        <!-- ***** Welcome Area Start ***** -->
+        <div class="welcome-area" id="welcome">
+
+            <!-- ***** Header Text Start ***** -->
+            <div class="header-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                            
+    <a href="#about" class="main-button-slider">Find Out More</a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                            <img src="assets/images/slider-icon.png" class="rounded img-fluid d-block mx-auto" alt="First Vector Graphic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Header Text End ***** -->
+        </div>
+        <!-- ***** Welcome Area End ***** -->
+
+
+        <!-- ***** Features Big Item Start ***** -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                    </div>
+                    <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+                        <div class="left-heading">
+                            <!-- <h5>Vivamus sodales nisi id ante molestie venenatis</h5> -->
+                        </div>
+                        <div class="left-text font1" >
+                           <strong><h1>COVID-19 DETECTION FROM X-RAY IMAGES</h1></strong>
+                    
+                    <form method="POST" action="/thankyou.html" id="form1" class="font1">
+                        <fieldset>
+                    <legend>Patient Details</legend>
+                    
+                    <label for="ID">Patient ID</label><br>
+                    <input type="number" class="form-control form-control-lg" id="ID" name="srno"><br>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" class="form-control form-control-lg" id="name" name="fullname"><br>
+                    <label for="age">Age</label><br>
+                    <input type="number" class="form-control form-control-lg" id="age" name="age1"><br><br>
+                    </fieldset>
+
+                        <input type="radio" id="result1" value="Covid Positive" name="Radiob"> Covid Positive<br>
+                        <input type="radio" id="result2" value="Covid Negative" name="Radiob"> Covid Negative<br><br>
+                        <input id="image-selector" type="file"> 
+                        
+                        <img id="selected-image" width="400" src=""/><br>
+                        <br>PREDICTION: <span id="result">:</span>
+                        <br><br>PROBABILITY: <span id="probability">:</span><br>
+                        <br><input type="button" value="Predict" button id="predict-button" button class="btn btn-primary btn-block bg-warning text-dark"></button>
+                        
+                    <br><br><input type="submit" value="Submit" id="sub" class="btn btn-primary btn-block" name="sub"></button><br><br>
+                   
+                    
+                </form>
+                <form action="/predict" method="POST" onsubmit="return false">
+                    
+                   
+                   
+                   </form>
+
+                 
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hr"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Big Item End ***** -->
+
+
+        <!-- ***** Features Big Item Start ***** -->
+        <section class="section bg-light" id="about2">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix">
+                        <div class="left-heading">
+                            <h5>About this Software</h5>
+                        </div>
+                        <p></p>
+                        <ul>
+                            <li>
+                                <img src="assets/images/about-icon-01.png" alt="">
+                                <div class="text">
+                                    <h6>Prediction of Covid-19 Results using CNN</h6>
+                                    <p></p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/images/about-icon-02.png" alt="">
+                                <div class="text">
+                                    <h6>Probability</h6>
+                                    <p></p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="assets/images/about-icon-03.png" alt="">
+                                <div class="text">
+                                    <h6>Patient Database Records</h6>
+                                    <p>If you have any question or comment, please <a rel="nofollow" href="https://github.com/devdatt9129">contact</a> us on Github.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Big Item End ***** -->
+
+
+        <!-- ***** Features Small Start ***** -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item service-item">
+                            <div class="icon">
+                                <i><img src="assets/images/service-icon-01.png" alt=""></i>
+                            </div>
+                            <h5 class="service-title">Prediciton using CNN</h5>
+                            <p></p>
+                            <a href="#" class="main-button">Read More</a>
+                        </div>
+                        <div class="item service-item">
+                            <div class="icon">
+                                <i><img src="assets/images/service-icon-02.png" alt=""></i>
+                            </div>
+                            <h5 class="service-title">Database Connection for patient records</h5>
+                            <p></p>
+                            <a href="#" class="main-button">Discover More</a>
+                        </div>
+                        <div class="item service-item">
+                            <div class="icon">
+                                <i><img src="assets/images/service-icon-03.png" alt=""></i>
+                            </div>
+                            <h5 class="service-title">Probability</h5>
+                            <p></p>
+                            <a href="#" class="main-button">More Detail</a>
+                        </div>
+                        <div class="item service-item">
+                            <div class="icon">
+                                <i><img src="assets/images/service-icon-02.png" alt=""></i>
+                            </div>
+                            <h5 class="service-title">Fourth Service Box</h5>
+                            <p></p>
+                            <a href="#" class="main-button">Read More</a>
+                        </div>
+                        <div class="item service-item">
+                            <div class="icon">
+                                <i><img src="assets/images/service-icon-01.png" alt=""></i>
+                            </div>
+                            <h5 class="service-title">Fifth Service Title</h5>
+                            <p></p>
+                            <a href="#" class="main-button">Discover</a>
+                        </div>
+                        <div class="item service-item">
+                            <div class="icon">
+                                <i><img src="assets/images/service-icon-03.png" alt=""></i>
+                            </div>
+                            <h5 class="service-title">Sixth Box Title</h5>
+                            <p></p>
+                            <a href="#" class="main-button">Detail</a>
+                        </div>
+                        <div class="item service-item">
+                            <div class="icon">
+                                <i><img src="assets/images/service-icon-01.png" alt=""></i>
+                            </div>
+                            <h5 class="service-title">Seventh Title Box</h5>
+                            <p>Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam.</p>
+                            <a href="#" class="main-button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Small End ***** -->
+
+
+        <!-- ***** Frequently Question Start ***** -->
+        <section class="section color1" id="frequently-question">
+            <div class="container">
+                <!-- ***** Section Title Start ***** -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-heading">
+                            <h2>Frequently Asked Questions</h2>
+                        </div>
+                    </div>
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="section-heading">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Section Title End ***** -->
+
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-6 col-sm-12 card border-primary text-dark font1 ">
+                        <h5 class="mt-5 font1">Curious?</h5><p></p>
+                        <div class="accordion-text">
+                            <p>Due to this ongoing pandemic, there are a bundle of misconceptions and misinformation spreading all around the globe.</p>
+                            <p>The solution which we are trying to provide also raises few questions on the integrity and authenticity of this software. So, our main goal is to address and answer all queries with the help of these FAQ's.</p>
+                            <span>Email: <a href="#">rushichandra.golwala2019@vitstudent.ac.in</a><br></span>
+                            <p><a href="#contact-us" class="main-button">Contact Us</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 font1">
+                        <div class="accordions is-first-expanded">
+                            <article class="accordion">
+                                <div class="accordion-head font1">
+                                    <span>How is this software accurate?</span>
+                                    <span class="icon">
+                                        <i class="icon fa fa-chevron-right"></i>
+                                    </span>
+                                </div>
+                                <div class="accordion-body">
+                                    <div class="content font1">
+                                        <p>The software has been built using a Convolutional Neural Network, a deep learning concept. The DL model has been trained on 15000+ images encompassing various datasets on pneumonia, common cold and covid patients with a testing accuracy of 99%.
+                                        <br><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="accordion">
+                                <div class="accordion-head">
+                                    <span>Second Question</span>
+                                    <span class="icon">
+                                        <i class="icon fa fa-chevron-right"></i>
+                                    </span>
+                                </div>
+                                <div class="accordion-body">
+                                    <div class="content">
+                                        <p>
+                                        <br><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="accordion">
+                                <div class="accordion-head">
+                                    <span>Third Question for you</span>
+                                    <span class="icon">
+                                        <i class="icon fa fa-chevron-right"></i>
+                                    </span>
+                                </div>
+                                <div class="accordion-body">
+                                    <div class="content">
+                                        <p> 
+                                        <br><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="accordion">
+                                <div class="accordion-head">
+                                    <span>Fourth Question Asked</span>
+                                    <span class="icon">
+                                        <i class="icon fa fa-chevron-right"></i>
+                                    </span>
+                                </div>
+                                <div class="accordion-body">
+                                    <div class="content">
+                                        <p>
+                                        <br><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="accordion">
+                                <div class="accordion-head">
+                                    <span>Fifth Ever Question</span>
+                                    <span class="icon">
+                                        <i class="icon fa fa-chevron-right"></i>
+                                    </span>
+                                </div>
+                                <div class="accordion-body">
+                                    <div class="content">
+                                        <p>
+                                        <br><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="accordion">
+                                <div class="accordion-head">
+                                    <span>Sixth Sense Question</span>
+                                    <span class="icon">
+                                        <i class="icon fa fa-chevron-right"></i>
+                                    </span>
+                                </div>
+                                <div class="accordion-body">
+                                    <div class="content">
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Frequently Question End ***** -->
+
+
+        <!-- ***** Contact Us Start ***** -->
+        <section class="section" id="contact-us">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- ***** Contact Map Start ***** -->
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div id="map">
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0016147109704!2d79.15722781422204!3d12.971748218386232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad479f0ccbe067%3A0xfef222e5f36ecdeb!2sVellore%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1628576608029!5m2!1sen!2sin" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                    </div>
+                    <!-- ***** Contact Map End ***** -->
+
+                    <!-- ***** Contact Form Start ***** -->
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="contact-form">
+                            <form id="contact" action="mailto:rushichandra.golwala2019@vitstudent.ac.in" method="post" enctype="text/plain">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                    <input name="name" type="text" id="name" placeholder="Full Name" required="" class="contact-field">
+                                </fieldset>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                    <input name="email" type="text" id="email" placeholder="E-mail" required="" class="contact-field">
+                                </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                <fieldset>
+                                    <textarea name="message" rows="6" id="message" placeholder="Your Message" required="" class="contact-field"></textarea>
+                                </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                <fieldset>
+                                    <input type="submit" id="form-submit" class="main-button" value="Send it">
+                                </fieldset>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- ***** Contact Form End ***** -->
+                </div>
+            </div>
+        </section>
+        <!-- ***** Contact Us End ***** -->
+
+        
+        <!-- ***** Footer Start ***** -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--database mysqlworkbench-->
+        <script src="assets/js/database.js"></script>
+        <!-- jQuery -->
+        <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="assets/js/popper.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <!-- Plugins -->
+        <script src="assets/js/owl-carousel.js"></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/imgfix.min.js"></script> 
+        
+        <!-- Global Init -->
+        <script src="assets/js/custom.js"></script>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        let base64Image;
+        $("#image-selector").change(function() {
+            let reader = new FileReader();
+            reader.onload = function(e) {
+                let dataURL = reader.result;
+                $('#selected-image').attr("src", dataURL);
+                base64Image = dataURL.replace(/^data:image\/(png|jpg|jpeg);base64,/, "");
+                console.log(base64Image);
+            }
+            reader.readAsDataURL($("#image-selector")[0].files[0]);
+            $("#result").text("");
+            $("#probability").text("");
+
+        });
+
+        $("#predict-button").click(function(){
+                let message = {
+                image: base64Image
+            }
+            console.log(message);
+            $.post("http://127.0.0.1:5000/predict", JSON.stringify(message), function(response){
+                $("#result").text(response.prediction.result);
+                $("#probability").text((response.prediction.accuracy.toFixed(2))*100 + "%" +" : accuracy of the test");
+                console.log(response);
+            });
+        });
+
+        $('#sub').click(function(){
+        var patid=document.getElementById("ID").value;
+        var name=document.getElementById("name").value;
+        var age=document.getElementById("age").value;
+        var resp;
+        
+                var ele = document.getElementsByName("Radiob");
+                
+                for(i = 0; i < ele.length; i++) {
+                    if(ele[i].checked)
+                    resp=ele[i].nextSibling.data;
+                }
+
+        });
+        
+
+    </script>
+    </html>
